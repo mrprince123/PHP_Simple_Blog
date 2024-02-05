@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+}
+
+.blog_full {
+    font-family: sans-serif;
+    height: fit-content;
+    line-height: 1.5;
+    background: linear-gradient(to bottom right, #0077b6, #00b4d8, #90e0ef);
+}
+
+
+.full_blog_data {
+    width: 60%;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.full_blog_data img {
+    width: 100%;
+    border-radius: 10px;
+}

@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.div_center_home {
+    height: 100vh;
+    background: linear-gradient(to bottom right, #0077b6, #00b4d8, #90e0ef);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.center_div_home {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.center_div_home p {
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.center_div_home h1 {
+    font-size: 80px;
+}
+
+.center_div_home h4 {
+    font-size: 25px;
+}
+
+.button_start button {
+    color: #0077b6;
+    background-color: white;
+    font-size: medium;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    border: 2px solid white;
+}
+
+
+
+/* Redirect Page  */
+
+.post_div_parent {
+    background: linear-gradient(to bottom right, #0077b6, #00b4d8, #90e0ef);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.data_posting {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.data_posting form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.data_posting input,
+textarea {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.data_posting h1,
+p {
+    color: white;
+    margin: 10px;
+}
+
+.button_div_data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_div_data .button_input {
+    width: 100%;
+    color: #3a86ff;
+    font-weight: bold;
+}
+
+
+
+/* Main Page  */
+
+.card_parent{
+    height: 100vh;
+    background: linear-gradient(to bottom right, #0077b6, #00b4d8, #90e0ef);
+}
+
+.card_top{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.one_card{
+    background-color: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    width: 250px;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+
+
+.one_card img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card_text{
+    padding: 10px;
+    text-align: start;
+}
+
+.one_card h1{
+    color: #0077b6;
+    font-size: medium;
+}
+.one_card p{
+    color: rgb(80, 79, 79);
+}
+
+.one_card button{
+    border-radius: 10px;
+    font-size: small;
+    padding: 5px;
+    background-color: #3a86ff;
+    border: 2px solid #3a86ff;
+    color: white;
+}
